@@ -1,4 +1,4 @@
-Terminal Kodları
+Terminal Komutları
 ==================
 cd ..  ->Önceki dizine gider
 pwd    ->Bulunduğu dizini gösterir
