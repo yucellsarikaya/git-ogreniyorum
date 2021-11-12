@@ -1,10 +1,11 @@
 Terminal Komutları
 ==================
-cd ..  ->Önceki dizine gider
-pwd    ->Bulunduğu dizini gösterir
-ls     ->Bulunduğu dizinde ki dosyaları gösterir
-mkdir dosya ->Bulunduğu dizinde dosya isimli klasör oluşturur
+cd ..          ->Önceki dizine gider
+pwd            ->Bulunduğu dizini gösterir
+ls             ->Bulunduğu dizinde ki dosyaları gösterir
+mkdir dosya    ->Bulunduğu dizinde dosya isimli klasör oluşturur
 touch file.txt ->Bulunduğu dizinde txt türünce file isimlli doysa oluşturur
-vi file.txt ->file.txt dosyasını açar(içinde değişiklik yapmak için i tuşuna basılır, değişiklik bitince ESC tuşuna ardından :wq yazıp entere basınca kayıt eder ve çıkar)
-rm file.txt ->file.txt dosyasını siler
-rm -r dosya ->doysa klasörünü siler
+vi file.txt    ->file.txt dosyasını açar(içinde değişiklik yapmak için i tuşuna basılır, değişiklik bitince ESC tuşuna ardından :wq yazıp entere basınca kayıt eder ve çıkar)
+rm file.txt    ->file.txt dosyasını siler
+rm -r dosya    ->doysa klasörünü siler
+clear          ->Terminal ekranını temizler

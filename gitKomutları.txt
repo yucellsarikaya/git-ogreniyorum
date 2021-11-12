@@ -1,0 +1,21 @@
+Git Komutları
+===============
+git --version ->Kullanılan git in versiyonunu gösterir
+git config --list ->git ayarlarını gösterir
+git config --global user.name "kullancıAd" ->Git kullanıcı adı yapılandırmasını yapılandırmasını
+git config --global user.email "mail" ->Git mail yapılandırmasını yapılandırmasını
+git init ->Bulunduğu klasörü repo yapar ve git komutlarının çalıştırılmasını sağlar
+git status ->Çalışma alanı ile staging area arasında ki farklı dosyları gösterir
+git add dosyaAdı ->Belirtilen dosyayı staging area ya taşır (git add . yaparrsak bulunduğu yerdeki tüm dosyları taşır)
+git rm --cached dosyaAdı ->Belirtilen dosyayı staging area dan çıkarır
+git log ->logları gösterir (git log --oneline sade şekilde logları göterir)
+git commit -m "mesaj içeriği" -> staging area daki dosyları local repository ye taşır
+git branch dal ->dal isimli branch oluşturur
+git branch -a ->branchlari listeler
+git checkout dal -> dal branchına geçer
+git branch -d dal ->dal branchını siler (eğer silmezse git branch -D dal şeklinde yaparak silmeye zorlarız)
+git merge dal -> master branchı ile dal branchı birleştirir
+git push link branchAdı ->belirtilen branchı istenilen repoya pushlar
+git clone link ->belirtline linkde ki repoyu indirir
+git remote -v ->indirilen reponun linki verir(yanında default olarak link yerine kullanılması için origin kelimesi vardır)
+git pull origin branch ->belirtilen linktek ki verileri pull ederek çeker 
