@@ -18,4 +18,4 @@ git merge dal -> master branchı ile dal branchı birleştirir
 git push link branchAdı ->belirtilen branchı istenilen repoya pushlar
 git clone link ->belirtline linkde ki repoyu indirir
 git remote -v ->indirilen reponun linki verir(yanında default olarak link yerine kullanılması için origin kelimesi vardır)
-git pull origin branch ->belirtilen linktek ki verileri pull ederek çeker 
+git pull origin branch ->belirtilen linkte ki verileri pull ederek çeker 
